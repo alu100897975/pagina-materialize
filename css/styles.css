@@ -1,0 +1,95 @@
+header.mean nav {
+    background-color: #333;
+    position: fixed;
+}
+h1,h2,h3 {
+    margin: 0px;
+}
+
+.mean ul {
+    display: inline-block;
+}
+#descripcion {
+    background: url(../img/fondo-principal.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    text-align: center;
+    color: #fff;
+}
+
+#equipo {
+    padding: 20px 0px;
+}
+#equipo .image {
+    border-radius: 50%;
+    overflow: hidden;
+    width: 100px;
+    height: 100px;
+    margin: 10px auto;
+}
+#equipo header h2 {
+    font-size: 20px;
+    font-weight: bold;
+     padding: 15px 0px;
+}
+#equipo img {
+    height: 100px;
+}
+
+#equipo .name-member {
+    font-size: 17px;
+}
+#equipo .social-member a {
+    font-size: 20px;
+    color: #333;
+}
+
+#versiones {
+    padding: 15px 0px;
+}
+#versiones header h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 15px 0px;
+}
+#versiones table th {
+    text-align: center;
+}
+
+#contacto {
+    background-color: #DADADA;
+    padding: 20px 0px;
+}
+
+#contacto header h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 15px 0px;
+}
+
+#contacto input[type="submit"]{
+    border: 0px;
+    padding: 10px 30px;
+    background-color:teal;
+    color: #fff;
+    text-transform: uppercase
+}
+footer {
+    background-color: #444;
+    padding: 20px 0;
+    
+}
+footer a {
+    color: #fff;
+    
+}
+footer a .fa-github {
+    font-size: 20px;
+    vertical-align: middle;
+    
+}
+footer a span {
+    margin-left: 5px;
+    vertical-align: middle;
+}
